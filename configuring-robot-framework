@@ -1,0 +1,19 @@
+How to install robot framework in Windows and be awesome
+
+  Configuring Python
+      1. Install Pyhton v 2.7.9  https://www.python.org/downloads/release/python-279/
+      2. Add to "Path" to environment variable
+      NOTE:
+      DON'T DELETE EVERYTHING. JUST ADD ";C:\Python27"
+      3. Add \Scripts
+      NOTE:
+      DON'T DELETE EVERYTHING AGAIN. JUST ADD ";C:\Python27\Scripts"
+      4. RESTART CMD
+      
+    INSTALLING VIRTUAL ENV
+      1. pip install virtualenv
+      2. pip install virtualenvwrapper-win
+      3. mkvirtualenv kat
+      
+      CREATING SETUP.PY
+      1. pip install -e . (installing everything inside setup.py)
