@@ -1,0 +1,17 @@
+# Robot Installation
+
+Installing Robot Framework (Using pip Python package manager)
+1. Install pip package manager by opening cmd where pip file is located and then execute "get-pip.py"
+2. After successfully installing pip, execute "pip install robotframework" to install the latest version of robot framework
+3. Verify robot framework installation with this command "pybot --version"
+-OR-
+1. Download get-pip.py
+Installer: https://pip.pypa.io/en/stable/installing/
+2. Run python get-pip.py
+3. Do steps 2 and 3
+
+Installing Robot Framewrok Selenium2Library
+1. Open a new cmd and execute "pip install robotframework-selenium2library"
+2. Check installation by going to Python prompt by executing command "python"
+3. Atthe Python prompt, import the library with command "import Selenium2Library", no error message should be returned
+4. Exit Python prompt by pressing [Ctrl+Z] then press [ENTER]
