@@ -1,0 +1,9 @@
+# Relational Database
+
+Diet:
+|Specie|Food|
+Monkey Banana
+Cat    Fish
+
+How to query fish:
+Select Food from Diet where Specie = "cat"
